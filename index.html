@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Aoi Nagase</title>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/responsive.css" media="screen and (max-width: 900px)">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+    <!--JavaScript-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <!--FormRun-->
+    <script src="https://sdk.form.run/js/v2/formrun.js"></script>
+  </head>
+
+  <body>
+    <!--ヘッダー-->
+    <header>
+      <div class="wrapper">
+        <h1>Aoi Nagase</h1>
+        <ul>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Portfolio">Portfolio</a></li>
+          <li><a href="#Services">Services</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+        <i class="fas fa-bars"></i>
+      </div><!--wrapper-->
+    </header>
+
+    <!--メイン-->
+    <main>
+      <div class="main-top">
+        <div class="top-img">
+          <img src="images/top.jpg" alt="トップ画像">
+        </div>
+        <div class="top-text">
+          <h2><span class="typed"></span></h2>
+        </div><!--top-text-->
+      </div><!--main-top-->
+
+      <div class="main-about" id="About">
+        <div class="wrapper">
+          <h2>About</h2>
+          <div class="about-contents">
+            <div class="about-content-left">
+              <img class="about-picture" src="images/about.png" alt="about picture">
+            </div><!--about-content-left-->
+            <div class="about-content-right">
+              <div class="profile">
+                <h3>Profile</h3>
+                <p>長瀬 あおい (35歳)</p>
+                <p>大阪在住</p>
+                <p>
+                  ソフトウェア開発会社でシステムエンジニアの正社員として10年勤務しており、フリーランスでWebエンジニアとしても活動中です。
+                </p>
+                <p>
+                  お客様との信頼関係を第一に考えております。
+                  知識や技術面に関してはもちろんですが、お客様とのコミュニケーションを大事にし、迅速な対応を心掛けております。<br>
+                  まずは、お気軽にご相談ください。
+                </p>
+              </div><!--profile-->
+              <div class="skill">
+                <h3>Skill</h3>
+                <ul>
+                  <li><i class="fab fa-html5"></i>HTML</li>
+                  <li><i class="fab fa-css3-alt"></i>CSS</li>
+                  <li><i class="fab fa-js-square"></i>JavaScript</li>
+                  <li><i class="fab fa-sass"></i>Sass</li>
+                  <li><i class="fab fa-php"></i>PHP</li>
+                  <li><i class="fab fa-wordpress"></i>WordPress</li>
+                </ul>
+              </div><!--skill-->
+            </div><!--about-content-right-->
+          </div><!--about-contents-->
+        </div><!--wrapper-->
+      </div><!--main-about-->
+  
+      <div class="main-portfolio" id="Portfolio">
+        <div class="wrapper">
+          <h2>Portfolio</h2>
+          <p>
+            Webサイト制作の実績(模写も含む)です。<br>
+            画像をクリックすることで拡大できます。
+          </p>
+          <div class="portfolio-contents">
+            <div class="portfolio-content fadein">
+              <div class="portfolio-content-img">
+                <div class="portfolio-content-cover"></div>
+                <img src="images/portfolio-img1.png" alt="実績1">
+              </div>
+              <div class="portfolio-content-text">
+                <h3><a href="https://aoinagase.github.io/KuriCafe/" target="_blank" rel="noopener noreferrer">架空カフェサイト</a></h3>
+              </div>
+            </div>
+            <div class="portfolio-content fadein">
+              <div class="portfolio-content-img">
+                <div class="portfolio-content-cover"></div>
+                <img src="images/portfolio-img2.png" alt="実績2">
+              </div>
+              <div class="portfolio-content-text">
+                <h3><a href="https://kimitotabi-labo.studio.site/" target="_blank" rel="noopener noreferrer">個人事業サイト(KimitoTabi)</a></h3>
+              </div>
+            </div>
+            <div class="portfolio-content fadein">
+              <div class="portfolio-content-img">
+                <div class="portfolio-content-cover"></div>
+                <img src="images/portfolio-img3.png" alt=" 実績3">
+              </div>
+              <div class="portfolio-content-text">
+                <h3>Airbnb模写</h3>
+                <a href="https://www.airbnb.jp/work?_set_bev_on_new_domain=1606677827_MjBhYjMzZGU0MWIy" target="_blank" rel="noopener noreferrer">元サイト様</a>
+              </div>
+            </div>
+            <div class="portfolio-content fadein">
+              <div class="portfolio-content-img">
+                <div class="portfolio-content-cover"></div>
+                <img src="images/portfolio-img4.png" alt="実績4">
+              </div>
+              <div class="portfolio-content-text">
+                <h3>疑似サイト(WordPress SnowMonkey使用)</h3>
+                <a href="https://fukugyo-th.com/corporate/" target="_blank" rel="noopener noreferrer">参考サイト様</a>
+              </div>
+            </div>
+          </div><!--portfolio-contents-->
+        </div><!--wrapper-->
+      </div><!--main-portfolio-->
+
+
+      <div class="main-services" id="Services">
+        <div class="wrapper">
+          <h2>Services</h2>
+          <p>
+            提供できるサービスです。
+          </p>
+          <div class="contents">
+            <div class="content fadein">
+              <div class="i-con">
+                <i class="fas fa-code"></i>
+              </div>
+              <h3>コーディング作業</h3>
+              <p>
+                ランディングページやWebサイトの頂いたデザインカンプを元に適切にコーディングを行います。既存サイトの不具合等にも対応致します。
+              </p>
+            </div>
+            <div class="content fadein">
+              <div class="i-con">
+                <i class="fas fa-mobile-alt"></i>
+              </div>
+              <h3>レスポンシブ対応</h3>
+              <p>
+                レスポンシブ対応とすることでタブレット端末やスマートフォンで閲覧しても見やすいWebサイトを制作することが出来ます。
+              </p>
+            </div>
+            <div class="content fadein">
+              <div class="i-con">
+                <i class="fab fa-wordpress"></i>
+              </div>
+              <h3>WordPress制作</h3>
+              <p>
+                LPなどの静的サイトにWordPressを導入し、動的なサイトを構築することができます。
+              </p>
+            </div>
+          </div><!--contents-->
+        </div><!--wrapper-->
+      </div><!--main-services-->
+
+      <div class="main-contact" id="Contact">
+        <div class="wrapper">
+          <h2>Contact</h2>
+          <p>
+            お問い合わせは<strong>こちらのフォーム</strong>で受け付けております。<br>
+            お仕事のご依頼、ご相談お待ちしております。
+          </p>
+
+          <div class="form">
+            <!-- class, action, methodを変更しないでください -->
+            <form class="formrun" action="https://form.run/api/v1/r/8w5j97nidznotuq0l6rqsabn" method="post">
+              <!-- ↓自由に要素を追加・編集することができます -->
+              <div class="form-content">
+                <label>お名前</label>
+                <input name="お名前" type="text">
+              </div>
+
+              <div class="form-content">
+                <label>メールアドレス [必須]</label>
+                <input name="メールアドレス" type="text" data-formrun-type="email" data-formrun-required>
+                <div class="form-text-err" data-formrun-show-if-error="メールアドレス">メールアドレスを正しく入力してください</div>
+              </div>
+
+              <div class="form-content">
+                <label>お問い合わせ [必須]</label>
+                <textarea name="お問い合わせ" rows="10px" data-formrun-required></textarea>
+                <div class="form-text-err" data-formrun-show-if-error="お問い合わせ">お問い合わせ入力してください</div>
+              </div>
+
+              <!-- ボット投稿をブロックするためのタグ -->
+              <div class="_formrun_gotcha">
+                <style media="screen">._formrun_gotcha {position:absolute!important;height:1px;width:1px;overflow:hidden;}</style>
+                <label for="_formrun_gotcha">If you are a human, ignore this field</label>
+                <input type="text" name="_formrun_gotcha" id="_formrun_gotcha" tabindex="-1">
+              </div>
+
+              <button type="submit" data-formrun-error-text="未入力の項目があります" data-formrun-submitting-text="送信中...">送信</button>
+            </form>
+         
+          </div>
+
+          <div class="right">
+            <div class="return-button">
+              <i class="fas fa-angle-double-up"></i>
+              <span>PAGE TOP</span>
+            </div>
+          </div><!--right-->
+        </div><!--wrapper-->
+      </div><!--main-contact-->
+    </main>
+
+
+
+    <!--フッター-->
+    <footer>
+      <div class="wrapper">
+        <small>&copy; Aoi Nagase 2020</small>
+      </div><!--wrapper-->
+    </footer>
+
+    <!-- モーダル -->
+    <div class="modal-bg"></div>
+    <div class="modal">
+      <div class="modal-wrapper">
+        <div class="close-btn"><i class="fas fa-times"></i></div>
+        <div class="modal-img"></div>
+      </div><!--modal-wrapper-->
+    </div><!--modal-->
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
